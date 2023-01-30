@@ -1,4 +1,4 @@
-// Day2 Notes
+// Day2 Notes                                                                                  [Jan - 24 - 2023]
 
 // console.error
 
