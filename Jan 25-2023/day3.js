@@ -190,3 +190,23 @@ array12.sort(function (a, b) {
 })
 
 console.log(array12) // [ 1, 4, 21, 30, 100000 ]
+
+// This Keyword (diff between normal vs arrow function)
+
+const div = document.createElement('div')
+const btn = document.createElement('button')
+const txt = document.createTextNode('click')
+const p = document.createElement('p')
+div.appendChild(btn)
+btn.appendChild(txt)
+div.appendChild(p)
+document.body.append(div);
+
+const getVal = () => {
+  p.innerHTML += this
+}
+getVal()
+
+window.addEventListener('load', getVal)
+// btn.addEventListener('click', getValue);
+btn.addEventListener('click', getVal);
