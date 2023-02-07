@@ -1,4 +1,4 @@
-// NOTES                                            FEB 7-2023
+// NOTES                                            [ FEB - 07 - 2023 ]
 
 class and constructor function
 
